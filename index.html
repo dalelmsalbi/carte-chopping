@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShoppingCART</title>
+    <!--box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--styles-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <!--nav-->
+      <div class="nav container">
+        <a href="#" class="logo"><span>E</span>Commerce</a>
+        <!--CART ICON-->
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+
+        <!--CART-->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+
+          <!--CONTENT-->
+          <div class="cart-content">
+            <!--TEST BOX-->
+            <div class="cart-box">
+              <img src="/img/product2.jpg.webp" alt="" class="cart-img" />
+              <div class="detail-box">
+                <div class="cart-product-title">Watch 8 ULtra</div>
+                <div class="cart-price">$87</div>
+                <input type="number" value="1" class="cart-quantity" />
+                <i class="bx bxs-heart Heart"></i>
+              </div>
+              <!--REMOVE CART-->
+              <i class="bx bxs-trash-alt cart-remove"></i>
+            </div>
+          </div>
+          <!--TOTAL-->
+          <div class="total">
+            <div class="total-title">total</div>
+            <div class="total-price">$10</div>
+          </div>
+          <!--BUY BUTTON-->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!--CART CLOSE-->
+          <i class="bx bx-x" id="cart-close"></i>
+        </div>
+      </div>
+    </header>
+    <!--SHOP SECTION-->
+    <section class="shop container">
+      <h2 class="section-title">shop products</h2>
+
+      <!--content-->
+      <div class="shop-content">
+        <!--BOX1-->
+        <div class="product-box">
+          <img src="/img/product1.jpg.webp" alt="" class="product-img" />
+          <h2 class="product-title">Bracelet jewelry simple</h2>
+          <span class="product-price">$40</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--BOX2-->
+        <div class="product-box">
+          <img src="/img/product2.jpg.webp" alt="" class="product-img" />
+
+          <h2 class="product-title">Watch 8 ULtra</h2>
+          <span class="product-price">$87</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--BOX3-->
+        <div class="product-box">
+          <img src="/img/product3.jpg.webp" alt="" class="product-img" />
+
+          <h2 class="product-title">Bracelet Women Butterfly</h2>
+          <span class="product-price">$13</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--BOX4-->
+        <div class="product-box">
+          <img src="/img/product4.jpg.webp" alt="" class="product-img" />
+
+          <h2 class="product-title">Huitan Dazzlig gold color</h2>
+          <span class="product-price">$99</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--BOX5-->
+        <div class="product-box">
+          <img src="/img/product5.jpg.webp" alt="" class="product-img" />
+
+          <h2 class="product-title">DERE Laptops T30 PRO</h2>
+          <span class="product-price">$1500</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--BOX6-->
+        <div class="product-box">
+          <img src="/img/product6.jpg.webp" alt="" class="product-img" />
+
+          <h2 class="product-title">Bracelet</h2>
+          <span class="product-price">$20</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--BOX7-->
+        <div class="product-box">
+          <img src="/img/product7.jpg.webp" alt="" class="product-img" />
+
+          <h2 class="product-title">Huitan Luxury Butterfly</h2>
+          <span class="product-price">$110</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <script src="/main.js"></script>
+  </body>
+</html>
